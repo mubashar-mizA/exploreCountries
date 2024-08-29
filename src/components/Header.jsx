@@ -1,3 +1,4 @@
+import DarkLight from "./darkLight.jsx"
 export default function Header(){
     return(
         <>
@@ -5,9 +6,9 @@ export default function Header(){
                 max-w-xlg items-center
                 mx-auto font-nunito text-xl
             ">
-                <div className="ml-3 flex items-center">
-                    <p className="font-nunito text-2xl">Where in the world</p>
-                    <p className="ml-6 mt-1 hover:cursor-pointer "><ion-icon name="moon-outline"></ion-icon></p>
+                <div className="flex items-center ">
+                    <p className="font-nunito text-2xl lg:mr-5">Where in the world</p>
+                    <DarkLight/>
                 </div>
             </div>
         </>
