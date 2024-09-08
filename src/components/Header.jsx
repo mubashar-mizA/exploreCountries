@@ -1,4 +1,4 @@
-import DarkLight from "./darkLight.jsx"
+
 export default function Header(){
     return(
         <>
@@ -8,7 +8,7 @@ export default function Header(){
             ">
                 <div className="flex items-center ">
                     <p className="font-nunito text-2xl lg:mr-5">Where in the world</p>
-                    <DarkLight/>
+                  
                 </div>
             </div>
         </>

@@ -21,7 +21,7 @@ export default function CountryDetail() {
     return (
         <div className='relative lg:h-[80vh] lg:flex items-center lg:justify-center p-3 m-1 border'>
             {/* Back Link */}
-            <Link to='/' className='absolute top-4 right-4 text-blue-500 hover:underline'>
+            <Link to='/' className='absolute top-4 right-4 text-black hover:underline'>
                 &larr; Back
             </Link>
             
@@ -53,7 +53,9 @@ export default function CountryDetail() {
                             {borderCountries.length > 0 ? (
                             <ul className='lg:pl-5'>
                                 {borderCountries.map(borderCountry => (
-                                    <li key={borderCountry.cca3}>
+                                    <li key={borderCountry.cca3}
+                                        className='flex'
+                                    >
                                         <button 
                                             className=' hover:underline'
                                             onClick={() => window.open(borderCountry.officialWebsite, '_blank')}

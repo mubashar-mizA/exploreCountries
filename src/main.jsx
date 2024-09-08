@@ -8,6 +8,7 @@ import Countries from './components/Countries.jsx'
 import Country from './components/Country.jsx'
 
 
+
 const router = createBrowserRouter( 
   createRoutesFromElements(
     <Route path='/' element={<Layout/>}>
@@ -19,8 +20,10 @@ const router = createBrowserRouter(
 
 
 createRoot(document.getElementById('root')).render(
+
   <StrictMode>
-    <RouterProvider router={router} />
     
-  </StrictMode>,
+      <RouterProvider router={router} />
+    
+  </StrictMode>
 )
