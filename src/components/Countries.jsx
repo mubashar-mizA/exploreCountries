@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import useCountryInfo from '../Hooks/useCountryInfo';
+import useCountryInfo from '../Hooks/useCountryInfo.jsx';
 import { Link } from 'react-router-dom';
 
 export default function CountryContainer() {

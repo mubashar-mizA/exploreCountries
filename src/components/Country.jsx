@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
-import useCountryInfo from '../Hooks/useCountryInfo';
+import useCountryInfo from '../Hooks/useCountryInfo.js';
 
 export default function CountryDetail() {
     const { countryName } = useParams();
